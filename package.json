@@ -1,0 +1,23 @@
+{
+    "name": "sass-tutorial",
+    "version": "1.0.0",
+    "description": "Build your own CSS library",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "gulp": "gulp"
+    },
+    "keywords": [
+        "sass",
+        "html",
+        "css",
+        "gulp"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^5.0.0",
+        "gulp-sass": "^5.1.0",
+        "sass": "^1.75.0"
+    }
+}
