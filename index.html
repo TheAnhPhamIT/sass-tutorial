@@ -7,54 +7,143 @@
         <link rel="stylesheet" href="css/index.css" />
     </head>
     <body>
-        <!-- colors -->
-        <h2>Colors</h2>
-        <span class="text-primary">Primary text</span>
-        <span class="text-secondary">Secondary text</span>
-        <span class="text-error">Error text</span>
-        <span class="text-info">Info text</span>
-        <span class="text-blue">Blue text</span>
-        <span class="text-red">Red text</span>
-        <span class="text-green">Green text</span>
-        <span class="text-yellow">Yellow text</span>
-        <span class="text-purple">Purple text</span>
-        <span class="text-orange">Orange text</span>
-        <span class="text-gray">Gray text</span>
+        <nav class="navbar-primary text-white mb-4">
+            <div class="container">
+                <h2 class="site-title">Mono CSS</h2>
+                <p>A lightweight CSS library for lazy dev</p>
+            </div>
+        </nav>
+        <div class="container">
+            <!-- colors -->
+            <h2 class="mb-2">Colors</h2>
+            <span class="text-primary">Primary text</span>
+            <span class="text-secondary">Secondary text</span>
+            <span class="text-error">Error text</span>
+            <span class="text-info">Info text</span>
+            <span class="text-blue">Blue text</span>
+            <span class="text-red">Red text</span>
+            <span class="text-green">Green text</span>
+            <span class="text-yellow">Yellow text</span>
+            <span class="text-purple">Purple text</span>
+            <span class="text-orange">Orange text</span>
+            <span class="text-gray">Gray text</span>
 
-        <br /><br />
+            <br /><br />
 
-        <span class="bg-primary text-white">Primary bg</span>
-        <span class="bg-secondary text-white">Secondary bg</span>
-        <span class="bg-error text-white">Error bg</span>
-        <span class="bg-info text-white">Info bg</span>
-        <span class="bg-blue text-white">Blue bg</span>
-        <span class="bg-red text-white">Red bg</span>
-        <span class="bg-green text-white">Green bg</span>
-        <span class="bg-yellow text-white">Yellow bg</span>
-        <span class="bg-purple text-white">Purple bg</span>
-        <span class="bg-orange text-white">Orange bg</span>
-        <span class="bg-gray text-white">Gray bg</span>
+            <span class="bg-primary text-white">Primary bg</span>
+            <span class="bg-secondary text-white">Secondary bg</span>
+            <span class="bg-error text-white">Error bg</span>
+            <span class="bg-info text-white">Info bg</span>
+            <span class="bg-blue text-white">Blue bg</span>
+            <span class="bg-red text-white">Red bg</span>
+            <span class="bg-green text-white">Green bg</span>
+            <span class="bg-yellow text-white">Yellow bg</span>
+            <span class="bg-purple text-white">Purple bg</span>
+            <span class="bg-orange text-white">Orange bg</span>
+            <span class="bg-gray text-white">Gray bg</span>
 
-        <br /><br />
+            <br /><br />
+            <a href="#" class="text-primary text-hover-orange-light-1"
+                >Hover Me</a
+            >
 
-        <!-- font sizes -->
+            <hr class="mt-4 mb-4" />
 
-        <!-- buttons -->
+            <!-- font sizes -->
+            <h2 class="mb-2">Font sizes</h2>
+            <div class="font-sm">This is small font</div>
+            <div class="font-md">This is medium font</div>
+            <div class="font-lg">This is large font</div>
+            <div class="font-xl">This is extra large font</div>
+            <div class="font-xxl">This is extra extra large font</div>
 
-        <!-- cards -->
-        <h2>Cards</h2>
-        <div class="card">
-            <h3 class="card__title">This is a card title</h3>
-            <p class="card__body">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
-                libero enim molestias,
-                <a href="#">expedita et magnam quidem quam </a>
-                tempora esse optio?
-            </p>
+            <hr class="mt-4 mb-4" />
+
+            <!-- buttons -->
+            <h2 class="mb-2">Buttons</h2>
+            <a href="#" class="btn">Default btn</a>
+            <a href="#" class="btn-primary text-white">Default btn</a>
+            <a href="#" class="btn-secondary text-white">Click Me</a>
+            <a href="#" class="btn-error text-white">Click Me</a>
+            <a href="#" class="btn-info text-white">Click Me</a>
+            <br /><br />
+
+            <a
+                href="#"
+                class="btn-outlined-primary text-primary text-hover-white"
+                >Default btn</a
+            >
+            <a
+                href="#"
+                class="btn-outlined-secondary text-secondary text-hover-white"
+                >Click Me</a
+            >
+            <a href="#" class="btn-outlined-error text-error text-hover-white"
+                >Click Me</a
+            >
+            <a href="#" class="btn-outlined-info text-info text-hover-white"
+                >Click Me</a
+            >
+            <br /><br />
+
+            <a href="#" class="btn-complement-primary">Click Me</a>
+            <a href="#" class="btn-complement-error">Click Me</a>
+            <hr class="mt-4 mb-4" />
+
+            <!-- cards -->
+            <h2 class="mb-2">Cards</h2>
+            <div class="card">
+                <h3 class="card__title">This is a card title</h3>
+                <p class="card__body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cumque libero enim molestias,
+                    <a href="#">expedita et magnam quidem quam </a>
+                    tempora esse optio?
+                </p>
+            </div>
+            <hr class="mt-4 mb-4" />
+            <!-- grid system -->
+            <h2 class="mb-2">Grid System</h2>
+            <div class="row gap-2 justify-center">
+                <div class="col-12-xs col-5-sm col-3-xl">
+                    <div class="card">
+                        <h3 class="card__title">Hello guys</h3>
+                        <p class="card__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12-xs col-5-sm col-3-xl">
+                    <div class="card">
+                        <h3 class="card__title">Hello guys</h3>
+                        <p class="card__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12-xs col-5-sm col-3-xl">
+                    <div class="card">
+                        <h3 class="card__title">Hello guys</h3>
+                        <p class="card__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12-xs col-5-sm col-3-xl">
+                    <div class="card">
+                        <h3 class="card__title">Hello guys</h3>
+                        <p class="card__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- utitlities -->
         </div>
-
-        <!-- grid system -->
-
-        <!-- utitlities -->
     </body>
 </html>
